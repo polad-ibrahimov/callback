@@ -21,5 +21,7 @@ function boyut(w, h, prm_saniye) {
         img.style.width = w;
         img.style.height = h;
         img.style.transition = 'all 0.5s ease';
+        button.style.border = "0px";
+        button.style.outline = "none";
     }, prm_saniye);
 }
