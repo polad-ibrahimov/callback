@@ -3,7 +3,7 @@ var button = document.getElementById('button');
 
 button.addEventListener('click', function(){
     this.style.border = "5px solid";
-    balacalat(400, 200, 1000, boyut);
+    balacalat(400, 200, 2000, boyut);
     
 });
 
@@ -12,6 +12,8 @@ function balacalat(w, h, saniye, callback) {
         img.style.width = w;
         img.style.height = h;
         img.style.transition = 'all 0.5s ease';
+        img.style.transform = 'scale(1)';
+        img.style.transform = 'translateX(-50%) translateY(-50%)';
         callback(600, 350, saniye);
     }, saniye);
 }
@@ -23,5 +25,7 @@ function boyut(w, h, prm_saniye) {
         img.style.transition = 'all 0.5s ease';
         button.style.border = "0px";
         button.style.outline = "none";
+        img.style.transform = 'scale(1.5)';
+        img.style.transform = 'translateX(-50%) translateY(-50%)';
     }, prm_saniye);
 }
