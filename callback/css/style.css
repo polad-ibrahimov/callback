@@ -1,0 +1,18 @@
+.main{
+    width: 600px;
+    margin:100px auto;
+   text-align: center;
+}
+
+img{
+    width: 600px;
+    height: 350px;
+    display: block;
+}
+
+button{
+    margin: 20px;
+    width: 200px;
+    height: 100px;
+    cursor: pointer;
+}
