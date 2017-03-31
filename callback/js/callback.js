@@ -3,7 +3,7 @@ var button = document.getElementById('button');
 
 button.addEventListener('click', function(){
     this.style.border = "5px solid";
-    balacalat(400, 200, 2000, boyut);
+    balacalat(900, 650, 2000, boyut);
     
 });
 
