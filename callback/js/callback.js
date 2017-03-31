@@ -3,11 +3,11 @@ var button = document.getElementById('button');
 
 button.addEventListener('click', function(){
     this.style.border = "5px solid";
-    balacalat(900, 650, 2000, boyut);
+    boyut(900, 650, 2000, balacalat);
     
 });
 
-function balacalat(w, h, saniye, callback) {
+function boyut(w, h, saniye, callback) {
     var timeout = setTimeout(function() {
         img.style.width = w;
         img.style.height = h;
@@ -18,7 +18,7 @@ function balacalat(w, h, saniye, callback) {
     }, saniye);
 }
 
-function boyut(w, h, prm_saniye) {
+function balacalat(w, h, prm_saniye) {
     var set = setTimeout(function() {
         img.style.width = w;
         img.style.height = h;
